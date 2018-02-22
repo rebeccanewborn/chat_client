@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.login,
+.chatroom {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.login {
+  top: 40%;
+}
+
+.chatroom {
+  top: 7%;
+  height: 93%;
+  width: 50%;
+}
+
+.chatroom-msgs {
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.new-msg {
+  width: 400px;
+}
